@@ -1,6 +1,6 @@
 /* GENERAL STYLES */
 
-*, *::after, {
+*, *::after {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -76,19 +76,21 @@ p {
     padding: 20px;
 }
 
+.search-engine-optimization .online-reputation-management .social-media-marketing {
+    padding: 10px;
+}
+
 /* FLOATS */
 
 .content {
     float: left;
     padding: 10px;
-    position: relative;
-    content: " ";
-    display: block;
     clear: both;
 }
 
 .seo, .orm, .smm {
     width: 40%;
+    padding: 10px;
 }
 
 /* MAIN */
@@ -161,4 +163,14 @@ footer {
 
 footer h2 {
     font-size: 20px;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.float-left {
+    float: left;
 }
