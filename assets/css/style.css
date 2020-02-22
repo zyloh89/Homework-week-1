@@ -78,6 +78,7 @@ p {
 
 .search-engine-optimization .online-reputation-management .social-media-marketing {
     padding: 10px;
+    padding-top: 10px;
 }
 
 /* FLOATS */
@@ -109,7 +110,7 @@ main {
     clear: both;
     float: right;
     width: 20%;
-    height: 100%;
+    height: 20%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
@@ -135,7 +136,7 @@ main {
 .service {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -154,11 +155,13 @@ main {
 /* FOOTER */
 
 footer {
-    padding: 30px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    position: bottom;    
 }
 
 footer h2 {
